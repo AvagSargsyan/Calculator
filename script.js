@@ -38,10 +38,3 @@ function operate(operator, num1, num2) {
     }
     return 'No such operation!';
 }
-
-console.log(operate('+', 10, 20));
-console.log(operate('-', 10, 20));
-console.log(operate('*', 10, 20));
-console.log(operate('/', 10, 20));
-console.log(operate('/', 10, 0));
-console.log(operate('%', 10, 20));
