@@ -27,7 +27,8 @@ body {
     flex: 1;
     background-color: rgb(4, 63, 53);
     color: white;
-    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: right;
 }
