@@ -70,7 +70,6 @@ operationButtons.forEach(button => {
             result = operate(operation, num1, num2);
             display.textContent = '';
             display.appendChild(answer);
-            console.log(num1, num2, operation, result);
             num1 = result;
             num2 = undefined;
             operation = button.textContent;
@@ -81,7 +80,6 @@ operationButtons.forEach(button => {
             num1 = +(display.textContent);
             display.textContent += button.textContent;
             operation = button.textContent;
-            console.log(num1, operation);
         }
     });
 });
@@ -93,7 +91,6 @@ equalsButton.addEventListener('click', (e) => {
         result = operate(operation, num1, num2);
         display.textContent = '';
         display.appendChild(answer);
-        console.log(num1, num2, operation, result);
         num1 = result;
         num2 = undefined;
         operation = undefined;

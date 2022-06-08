@@ -20,7 +20,7 @@ body {
     align-items: stretch;
     justify-content: stretch;
     height: 70%;
-    width: 40%;
+    width: 30%;
 }
 
 .display {
@@ -66,9 +66,13 @@ body {
     color: rgb(44, 107, 104);
 }
 
-.buttons div .equal {
+.buttons div .equals {
     flex: 2;
     color: rgb(255, 102, 0);
+}
+
+.buttons div .ac, .buttons div .clear, .buttons div .operation {
+    background-color: rgb(167, 231, 227);
 }
 
 .answer {
